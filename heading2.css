@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 107px;
+    display: inline-flex;
+    background-color: white;
+}
+.logo{
+    padding-left: 65px;
+    display: inline-flex;
+    width: 31%;
+}
+#himg{
+    margin-top: 5px;
+    width: 40%;
+}
+#logotext{
+    width: 200px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+.mail{
+    padding-left: 95px;
+    display: inline-flex;
+    width: 26%;
+}
+.fa{
+    margin-top: 25px;
+    
+}
+#h-mail{
+    margin-top: 25px;
+    padding-left: 15px;
+}
+.h-contact{
+    padding-left: 95px;
+    display: inline-flex;
+    width: 31%;
+}
+#hfa{
+    margin-top: 25px;
+    padding-left: 2px;
+}
+#h-con{
+    margin-top: 25px;
+    padding-left: 13px;
+}
+.h-button{
+    width: 20%;
+    margin-top: 35px;
+    padding-left: 61px; 
+}
+.h-button button{
+    background: red;
+    height:28px;
+    width: 60px;
+    color: white; 
+    border:solid red;
+    margin-bottom: 10px;
+}
+a.abc{
+    text-decoration: none;
+}
+.h-contents{
+/*  background: linear-gradient(#033747,#012733);*/
+    background-color: black;
+    text-align: left;
+    padding-left: 60px;
+}
+.h-contents ul{
+    display: inline-flex;
+    list-style: none;
+    padding-left:0px;
+    margin-top: 12px;
+}
+.h-contents ul li{
+    width: 150px;
+    margin: 15px ;
+    padding-right: 30px;
+    position: relative;
+}
+.h-contents ul li a{
+    font-family: Carter One;
+    text-decoration: none;
+    color: whitesmoke;
+/*    padding: 10px 5px;*/
+    font-size: 25px;
+}
+.h-contents li a:hover{
+    color: limegreen;
+}
+
+.h-button button a{
+    text-decoration: none;
+    color: white;
+}
+.drop-down-menu ul {
+    display: none;
+    position: absolute;
+    background: rgb(121, 111, 98);
+    margin-top: 0;
+    margin-left: -15px;
+    border-radius: 8px;
+}
+.h-contents ul li:hover .drop-down-menu ul {
+    display: block;
+}
+.h-contents ul li:hover .drop-down-menu ul li {
+    width: 110px;
+    padding: 7px;
+    border-bottom: 1px dotted #fff;
+}
+/*.regdropmenu {
+    position: relative;  
+}
+  
+.regdropmenu ul {
+    display: none;
+    top: 135%;
+    width: 100px;
+    position: absolute;
+    background: limegreen;
+    border-radius: 8px;
+    list-style: none;
+    margin-left: 72px;
+}
+.regdropmenu ul li {
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    text-align: left;
+}
+.regdropmenu a {
+    color: white;
+    text-decoration: none;
+}
+.regdropmenu:hover ul {
+    display: block;
+}
+.regdropmenu li a:hover{
+    color: whitesmoke;
+}*/
+
+

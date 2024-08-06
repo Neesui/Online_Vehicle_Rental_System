@@ -1,0 +1,891 @@
+/*main dashboard*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background: #F0EEEE;
+}
+.User-heading{
+    width: 100%;
+    float: right;
+    height: 10vh;
+    margin-bottom: 30px;
+    background: lightgrey;
+}
+.user-profile{
+    width: 10%;
+    display: inline-block;
+    float: right;
+    
+}
+.user-profile{
+    margin-top: 5px;
+}
+.user-profile a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.user-sidenav{
+    width: 18%;
+    background:lightgrey;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+    overflow: hidden;
+
+}
+.mysidenav-1{
+    margin-top: 30px;
+    height: 100vh;
+    margin-left: 0px;
+}
+.User-main-title p{
+    font-size: 20px;
+    font-family:Lobster;
+    color: #040440;
+    margin-left: 15px;
+}
+ .user-logo{
+    font-size: 30px;
+    font-family: PT Serif;
+    margin-left: 20px;
+    color: black;
+}
+.mysidenav-1 a{
+    padding: 10px 8px 10px 33px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: Kanit;
+    color: #040440;
+    display: block;
+    transition: 0.5s;
+}
+.mysidenav-1 a:hover{
+    color: #001C30;
+    background: #CDFCF6;
+}
+
+/*dashboard*/
+#D-main{
+    padding: 16px;
+    margin-left: 300px;
+    width: 70%;
+    height: 40vh;
+}
+.D-head{
+    padding-left: 0px;
+}
+.col-div{
+    width: 78%;
+    float: left;
+
+}
+.col-div h1{
+    color: #040440;
+    margin-top: 30px;
+    width: 120px;
+    margin-left: 338px;
+    font-size: 50px;
+    font-family: PT Serif;
+}
+.col-div-1{
+    width: 33%;
+    float: left;
+    margin-top: 5px;
+}
+.D-Box, .D-Box1, .D-Box2, .D-Box3, .D-Box4, .D-Box5 {
+    margin-top: 25px;
+    width: 80%;
+    height: 118px;
+    margin-left: 70px;
+    border-left: 10px solid #47A992;
+}
+.D-Box{
+    background-color: #FFE4A7;
+}
+.D-Box1{
+    background-color: lightgreen;
+}
+.D-Box2{
+/*  background-color: lightblue ;*/
+    background-color: #A7ECEE;
+}
+.D-Box3{
+/*  background-color: #A0C49D;*/
+    background-color: #80ed99;
+}
+.D-Box4{
+    background-color: lightgray;
+}
+.D-Box5{
+    background-color: #FFE4A7;
+}
+.D-Box #num{
+    width: 24px;
+    font-size: 25px;
+    font-family: Outfit;
+    margin-left: 32px;
+    padding-top: 105px;
+    color: #025464;
+}
+#num1{
+    width: 233px;
+    color: red;
+    font-size: 25px;
+    font-family: PT Serif;
+    margin-left: 20px;
+    padding-top: 12px;
+}
+#num1 a{
+    text-decoration: none;
+    color: #46160c;
+}
+#icon-b{
+    width: 50px;
+    font-size: 50px;
+    margin-left: 90px;
+    color: black;
+    padding-top: 15px;
+}
+#icon-c{
+    width: 60px;
+    font-size: 40px;
+    margin-left: 90px;
+    color: black;
+    padding-top: 10px;
+}
+#icon-d{
+    width: 48px;
+    font-size: 40px;
+    margin-left: 90px;
+    color: black;
+    padding-top: 10px;
+}
+
+.table-responsive{
+    width: 77.7%;
+}
+.table-responsive p{
+    font-size: 30px;
+    margin-left: 350px;
+}
+.dataTable{
+    width: 80%;
+    margin-left: 348px;
+    margin-top: 15px;
+}
+.userdashboardh6{
+    padding-left: 800px;
+}
+
+
+///homepage
+
+*{
+    margin-top: 0px;
+    padding: 0px;
+}
+.home-main{    
+}
+.text{
+    background:url(img/BMW1.jpg);
+    position: static;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 70px;
+    padding-left: 35px;
+}
+#t1{
+    font-size: 100px;
+    text-shadow: 4px 4px 6px black;
+    color: white;
+    
+}
+#t2{
+    font-size: 40px;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+    font-family: Maven Pro;
+    margin-top: 20px;
+}
+.middle{
+    text-align: center;
+    width: 100%;
+}
+#m-t1{
+    font-size: 58px;
+    margin-top: 30px;
+    color: black;
+}
+#find{
+    font-size: 80px;
+    color: red;
+    font-family: Source Serif Pro;
+}
+#m-t2{
+    font-size: 35px;
+    color: black;
+    margin-top: 18px;
+
+}
+.home-img{
+    width: 100%;
+    background: rgba(0,0,0,0.3)url(img/you0.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    box-sizing: border-box;
+    margin-top: 20px;
+    filter: contrast(122%);
+    
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    margin: 60px;
+    margin-top: 109px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+#Icon-num{
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+    font-family: Maven Pro;
+}
+#satisfy{
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: Maven Pro;
+}
+#t3{
+    font-size: 80px;
+    font-family: Source Serif Pro;
+    color: white;
+    text-shadow: 4px 4px 6px black;
+/*    margin-top: 200px;*/
+    text-align: center;
+    padding-top: 60px;
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+   
+}
+.logof img{
+    width: 15%;
+    position: absolute;
+    margin-top: -69px;
+    padding-left: 70px;
+}
+.para-1{
+    padding-left: 70px;
+    color: white;
+}
+#p1{
+    margin-top: 89px;
+    padding: 5px;
+    font-size: 25px;
+    position: absolute;
+}
+#pp1{
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 25px;
+    color: white;
+}
+#p2{
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 125px;
+}
+.link{
+    padding-left: 587px;
+    color: white;
+    margin-top: -162px;
+}
+#l1{
+    padding: 25px;
+    font-size: 25px;
+    width: 154px;
+    padding-left: 73px;
+    margin-top: 0px;
+}
+.footimg {
+    margin-top: 2px;
+    padding-left: 32px;
+}
+.para-2{
+    padding-left: 1000px;
+    color: white;
+    margin-top: -124px;
+}
+#pa1{
+    font-size: 25px;
+    width: 104px;
+    padding-left: 63px;
+}
+#fa{
+    width: 0%;
+    display: inline-flex;
+    margin-top: 23px;
+    color: white;
+}
+#faa{
+    margin-top: 10px;
+}
+.para-2 p{
+    width: 222px;
+    font-size: 20px;
+    margin-top: -24px;
+    padding-left: 30px;
+}
+#f-num{
+    margin-top: -20PX;
+}
+
+/*about*/
+
+.secabout{
+    background: rgba(0,0,0,0.5)url(img/drive.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 68vh;
+    margin-top: 10px;
+}
+.s-para{
+    font-family: Carter One;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 150px;
+}
+#linkhome2{
+    font-size: 30px;
+    z-index: -1;
+    color: white;
+    padding-left: 576px;
+    font-family: Carter One;
+    text-decoration: none;
+}
+#linkhome2:hover{
+    color: #F6FA70;
+}
+#aboutlink{
+    font-size: 30px;
+    z-index: -1;
+    color: white;
+    font-family: Carter One;
+    text-decoration: none;
+/*    padding-left: 350px;*/
+}
+#aboutlink:hover{
+    color: #F6FA70;
+}
+.about{
+    text-align: center;
+    width: 100%;
+}
+.about-middle{
+    font-size: 60px;
+    color: red;
+     font-family: Source Serif Pro;
+    padding: 20px;
+}
+#about-para{
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+//contact
+body.contact{
+    background-color: #FAFFFF;
+}
+.C-img{
+    background: rgba(0,0,0,0.2)url(img/c-photo.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 68vh;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.linkhome1{
+    font-size: 30px;
+    z-index: -1;
+    color: white;
+    padding-left: 576px;
+    font-family: Carter One;
+    text-decoration: none;
+}
+.linkhome1:hover{
+    color: #F6FA70;
+}
+.contactlink{
+    font-size: 30px;
+    z-index: -1;
+    color: white;
+    font-family: Carter One;
+    text-decoration: none;
+/*    padding-left: 350px;*/
+}
+.contactlink:hover{
+    color: #F6FA70;
+}
+.C-con{
+    font-family: Carter One;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 150px;
+}
+.left-head{
+    margin-top: 18px;
+    font-family: Kanit;
+    font-size: 50px;
+    color: red;
+}
+.mainboxcontact{
+    margin-top: 10px;
+    width: 100%;
+    height: 104vh;
+}
+.left-contact_box{
+    /*background: blue;
+    margin-top: 10px;
+    font-size: 20px;*/
+    padding-left: 65px;
+/*  background: #e73453;*/
+    width: 35%;
+    height: 400px;
+    color: black;
+    float: left;
+    font-size: 20px;
+}
+.left-contact_box div{
+    display: inline-flex;
+}
+#cfa{
+    margin-top: 5px;
+
+}
+#cp{
+    font-family: Maven Pro;
+    margin-left: 7px;
+    font-size: 29px;
+}
+.chead{
+    font-family: PT Serif;
+    font-size: 39px;
+    color: blue;
+    font-style: bold;
+    margin-top: 28px;
+    margin-bottom: 7px;
+}
+.map{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+
+/*service.php*/
+
+.car-four-box{
+    color: red;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.car-four-box1{
+    color: red;
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.car-four1{
+    background: white;
+    box-shadow: 2px 2px 8px black;
+    margin-left: 50px;
+    width: 361px;
+    margin-bottom: 70px;
+}
+.car-four1 img{
+    width: 361px;
+
+    }
+.car-text{
+    border: 2px solid black;
+    width: 359px;
+    height: 35px;
+    background: black;
+    color: white;
+}
+.car-text p{
+    font-size: 20px;
+    padding-left: 35px;
+    margin-top: 5px;
+}
+.car-describe{
+    margin-left: 20px;
+}
+.honda{
+    font-size: 26px;
+    color: ##21DB0F;
+    font-family: Kanit;
+    margin-top: 10px;
+}
+.rate{
+    border: 2px ;
+    font-size: 20px;
+    color: #2F0F5D;
+    margin-left: 75px;
+}
+.car-detail{
+    color: black;
+    font-size: 20px;
+    font-family: Source Serif Pro;
+    margin-top: 10px;
+}
+.msgcar{
+    margin-top: 30px;
+}
+.car-book input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #13005A;
+    color: #F6F7C1;
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: Roboto Slab;
+}
+.log1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: darkgreen;
+    color: white;
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: Roboto Slab;
+}
+.log2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: darkred;
+    color: white;
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: Roboto Slab;
+}
+.sub{
+    margin-top: 30px;
+}
+
+
+
+/*product booking */
+.right-product-form_box{
+    width: 100%;
+    height: 1200px;
+    color: white;
+}
+.product-form-box{
+    width: 50%;
+    height: 163vh;
+    background-color: #F0F3F1;
+    border-radius: 2px black;
+    margin: auto;
+    margin-top: 10px;
+   
+ }
+.input-box{
+    color: black;
+    font-family: PT Serif;
+    margin-left: 35px;
+    padding-top: 23px;
+}
+.input-box input{
+    font-family: PT Serif;
+    margin-top: 10px;
+    width: 90%;
+    padding: 12px;
+/*  margin: 5px;*/
+}
+.input-box label{
+    font-family: PT Serif;
+    color: black;
+    width: 205px;
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+}
+.input-box textarea{
+    font-family: PT Serif;
+    margin-top: 8px;
+    color: black;
+    width: 513px;
+    display: inline-block;
+    height: 75px;
+    padding: 12px;
+}
+::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.btnSubmit{
+    font-family: Kanit;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 34px;
+    float: right;
+    width: 168px;
+    height: 52px;
+    background: red;
+    border: red;
+    color: white;
+    font-size: 30px;
+}
+.destination{
+    width: 100%;
+
+}
+.des1{
+    margin-left: 33px;
+    padding-top: 23px;
+}
+.destination{
+    width: 100%;
+}
+.de{
+    width: 48%;
+    
+}
+.des{
+    width: 47%;
+}
+.destination{
+    display: inline-flex;
+}
+.driver{
+    padding-left: 35px;
+    color: black;
+    font-family: PT Serif;
+}
+#withdrive{
+    margin-left: 190px;
+}
+.h1book {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 36px;
+}
+input.updatesta {
+    width: 50px;
+}
+
+
+
+
+//user update booking
+.update-user-right-product-form_box{
+    width: 100%;
+    height: 1200px;
+    color: white;
+   
+}
+.update-user-product-form-box{
+    width: 50%;
+    height: 110vh;
+    background-color: #F0F3F1;
+    border-radius: 2px black;
+    margin: auto;
+    margin-top: 10px;
+   
+ }
+.user-input-box{
+    color: black;
+    font-family: PT Serif;
+    margin-left: 35px;
+    padding-top: 23px;
+}
+.user-input-box input{
+    font-family: PT Serif;
+    margin-top: 10px;
+    width: 90%;
+    padding: 12px;
+/*  margin: 5px;*/
+}
+.user-input-box label{
+    font-family: PT Serif;
+    font-size: 20px;
+    color: black;
+    width: 197px;
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+}
+.user-input-box textarea{
+    font-family: PT Serif;
+    margin-top: 8px;
+    color: black;
+    width: 513px;
+    display: inline-block;
+    height: 75px;
+    padding: 12px;
+}
+::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.btnSubmit{
+    font-family: Kanit;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 34px;
+    float: right;
+    width: 168px;
+    height: 52px;
+    background: red;
+    border: red;
+    color: white;
+    font-size: 30px;
+}
+ .ubook{
+    text-align: center;
+    font-family: CarterOne;
+    text-decoration: underline;
+ }
+input.updatesta {
+    width: 50px;
+}
+
+
+
+//user_view_booking
+.aaa {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.blist{
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.tablestyle, .tablestyle1{
+    border:1px solid black;
+    width: 78%;
+    margin-left: 273px;
+    border-collapse:collapse;
+}
+.tablestyle1 tr,th,td{
+    border:1px solid black;
+    height: 40px;
+
+}
+.tablestyle tr,th,td{
+    border:1px solid black;
+    height: 40px;
+}
+.tablestyle th{
+    font-size: 17px;
+    font-family: PT Serif;
+    background:lightgray;
+}
+.tablestyle td , .tablestyle1 td{
+    font-size: 15px;
+    font-family: Roboto;
+    text-align: center;
+}
+.actioncol a{
+    border: none;
+    padding: 5px;            
+    text-decoration:none;
+    color:white;
+}
+.actioncol a.view{
+    background:green;
+    width: 20%;
+}
+.actioncol a.edit{
+    background:blue;
+    width: 20%;
+}
+.actioncol a.del{
+    background:red;
+    width: 20%;
+}
+
+
+//user profile
+.container{
+    width: 100px;
+    padding-top: 100px;
+}
+.container h1{
+    color: #0a1128;
+/*    padding-top: 100px;*/
+    font-family: Kanit;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.uborder{
+    width: 40%;
+    margin-left: 300px;
+}
+.container b{
+    color: #370617;
+}
+.container p{
+    font-family: Kanit;
+    font-size: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.container a{
+    margin-top: 40px;
+    padding-left: 300px;
+}
+.container input{
+    width: 33%;
+    height: 50px;
+    color: whitesmoke;
+    background-color: #0646b5;
+    border:  none;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Outfit;
+}

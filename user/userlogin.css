@@ -1,0 +1,111 @@
+body{
+	background: rgba(0,0,0,0.5)url(../img/820.jpg);
+	background-size: cover;
+	width: 100%;
+	background-blend-mode: darken;
+}
+.login-box{
+	width: 426px;
+	background-color: rgba(0, 0, 0, 0.1);
+	margin: auto;
+	margin-top: 90px;
+	border-radius: 23px;
+}
+.login-box h1{
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	padding-top: 15px;
+	font-size: 50px;
+	font-weight: 1200;
+}
+.login-box form{
+	width: 330px;
+	margin-left: 43px;
+}
+.sighup-form input{
+	color: white;
+	width: 100%;
+	height: 46px;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 12px;
+	margin-bottom: 18px;
+	font-size: 18px;
+}
+::placeholder{
+	color: white;
+	padding-left: 20px;
+}
+.login-box button{
+	text-align: center;
+	width: 337px;
+	height: 52px;
+	background: #8d5ec1;
+	color: white;
+	font-size: 30px;
+
+}
+.login-box p{
+	color: white;
+	text-align: center;
+	padding-top: 1px;
+	font-size: 23px;
+}
+.login-box p a {
+	color: limegreen;
+	text-decoration: none;
+}
+.drop-down-menu {
+	position: absolute;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 10px;
+  }
+  
+.nav li:hover .drop-down-menu {
+	display: block;
+  }
+  
+.nav li:hover .drop-down-menu ul {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+  }
+  
+.nav li:hover .drop-down-menu a {
+	color: white;
+	text-decoration: none;
+  }
+  
+.nav li:hover .drop-down-menu a:hover {
+	text-decoration: underline;
+  }
+/* .rem{
+  	color: white;
+  	font-size: 18px;
+  }
+#check input[type=checkbox]{
+	color: whitesmoke;
+	width: 20px;
+	margin-bottom: 5px;
+}*/
+.remember{
+	width: 10px;
+}
+input[type=checkbox]{
+	color: whitesmoke;
+	width: 20px;
+	height: 20px;
+}
+.rem{
+	padding-left: 10px;
+	color: whitesmoke;
+	font-size: 25px;
+
+}
+.form-rem input{
+	display: inline-flex;
+	color: white;
+}

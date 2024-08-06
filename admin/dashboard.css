@@ -1,0 +1,779 @@
+/*main dashboard*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	background: #F0EEEE;
+}
+.D-heading{
+	width: 100%;
+	float: right;
+	height: 10vh;
+	background: lightgrey;
+}
+.profile{
+	width: 10%;
+	display: inline-block;
+	float: right;
+	
+}
+.profile img{
+	margin-top: 5px;
+}
+.profile a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.sidenav{
+	width: 23%;
+	background:lightgrey;
+	height: 100%;
+	position: fixed;
+	padding-top: 20px;
+	overflow: hidden;
+
+}
+.mysidenav{
+	margin-top: 30px;
+	height: 100vh;
+	margin-left: 0px;
+}
+.D-title p{
+	font-size: 40px;
+	font-family:Lobster;
+	color: #040440;
+	margin-left: 15px;
+}
+ .Dlogo{
+	font-size: 30px;
+	font-family: PT Serif;
+	margin-left: 20px;
+	color: black;
+}
+.mysidenav a{
+	padding: 10px 8px 10px 33px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Kanit;
+	color: #040440;
+	display: block;
+	transition: 0.5s;
+}
+.mysidenav a:hover{
+	color: #001C30;
+	background: #CDFCF6;
+}
+
+
+
+/*dashboard*/
+#D-main{
+	padding: 16px;
+	margin-left: 300px;
+	width: 70%;
+	height: 40vh;
+}
+.D-head{
+	padding-left: 0px;
+}
+.col-div{
+	width: 78%;
+	float: left;
+
+}
+.col-div p{
+	color: #040440;
+	margin-top: 30px;
+	width: 120px;
+	margin-left: 60px;
+	font-size: 40px;
+	font-family: PT Serif;
+}
+.col-div-1{
+	width: 33%;
+	float: left;
+	margin-top: 5px;
+}
+.D-Box, .D-Box1, .D-Box2, .D-Box3, .D-Box4, .D-Box5 {
+	margin-top: 25px;
+	width: 80%;
+	height: 118px;
+	margin-left: 70px;
+	border-left: 10px solid #47A992;
+}
+.D-Box{
+	background-color: lightpink;
+}
+.D-Box1{
+	background-color: lightgreen;
+}
+.D-Box2{
+/*	background-color: lightblue ;*/
+	background-color: #A7ECEE;
+}
+.D-Box3{
+/*	background-color: #A0C49D;*/
+	background-color: #97DBAE;
+}
+.D-Box4{
+	background-color: lightgray;
+}
+.D-Box5{
+	background-color: #FFE4A7;
+}
+.D-Box #num{
+	width: 24px;
+	font-size: 25px;
+	font-family: Outfit;
+	margin-left: 32px;
+	padding-top: 105px;
+	color: #025464;
+}
+#num1{
+	width: 233px;
+	color: red;
+	font-size: 25px;
+	font-family: PT Serif;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+#num1 a{
+	text-decoration: none;
+	color: #46160c;
+}
+#num2{
+	width: 233px;
+	color: red;
+	font-size: 25px;
+	font-family: PT Serif;
+	margin-left: 50px;
+	padding-top: 15px;
+}
+#num2 a{
+	text-decoration: none;
+	color: #46160c;
+}
+#icon-b{
+	width: 50px;
+	font-size: 50px;
+	margin-left: 90px;
+	color: black;
+	padding-top: 10px;
+}
+#icon-c{
+	width: 60px;
+	font-size: 40px;
+	margin-left: 90px;
+	color: black;
+	padding-top: 20px;
+}
+#icon-d{
+	width: 48px;
+	font-size: 40px;
+	margin-left: 90px;
+	color: black;
+	padding-top: 20px;
+}
+
+.table-responsive{
+	width: 77.7%;
+}
+.table-responsive p{
+	font-size: 30px;
+	margin-left: 350px;
+}
+.dataTable{
+	width: 80%;
+	margin-left: 348px;
+	margin-top: 15px;
+
+}
+
+
+
+/*admin login*/
+.admin-background{
+	background:rgba(0, 0, 0, 0.4) url(img/820.jpg);
+	background-size: cover;
+	width: 99%;
+	background-blend-mode: darken;
+}
+.login-box{
+	width: 380px;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: auto;
+	height: 380px;
+	margin-top: 120px;
+	border-radius: 23px;
+}
+.login-box h1{
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+	padding-top: 20px;
+	font-size: 40px;
+	font-weight: 1200;
+}
+.login-box .input-form{
+	width: 320px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.login-box .input-form input[type=text],[type=password]{
+	width: 100%;
+	height: 46px;
+	border: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-bottom: 8px;
+	font-size: 22px;
+}
+input[type=checkbox]{
+	color: whitesmoke;
+	width: 18px;
+}
+::placeholder{
+	color: white;
+	padding-left: 20px;
+}
+.error{
+	color: red;
+	font-size: 18px;
+}
+.rem{
+	padding-left: 10px;
+	color: whitesmoke;
+	font-size: 20px;
+
+}
+.form-rem input{
+	display: inline-flex;
+	color: white;
+}
+.login-box button{
+	text-align: center;
+	width: 320px;
+	border: none;
+	margin-left: 5px;
+	height: 52px;
+	background: #11009E;
+	color: white;
+	font-size: 30px;
+	margin-top: 18px;
+	margin-bottom: 17px;
+
+}
+.remember{
+	width: 10px;
+}
+.login-box p{
+	color: white;
+	text-align: center;
+	padding-top: 1px;
+	font-size: 18px;
+}
+ .forget-pass{
+	color: white;
+	text-decoration: none;
+	margin-left: 130px;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+
+
+/*add catagories*/
+.Category-form-box{
+	width: 55%;
+	height: 300px;
+	padding-left: 300px;
+}
+.Category-form-box h2{
+	font-size: 30px;
+	font-family: PT Serif;
+	padding-top: 90px;
+	padding-left: 80px;
+}
+.Category-box{
+	 color: black;
+	 width: 70%;
+    font-family: PT Serif;
+    margin-left: 35px;
+    padding-top: 23px;
+/*    background-color: lightpink;*/
+}
+.Category-box label{
+	 font-family: PT Serif;
+    color: black;
+    font-size: 23px;
+    height: 10px;
+    padding: 15px;
+    margin-left: 45px;
+}
+.Category-box input{
+    font-family: PT Serif;
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 50px;
+    padding: 10px;
+}
+.Category-box input[type="radio"]{
+	width: 10%;
+}
+.Category-box select{
+	width: 283px;
+    height: 39px;
+    margin-left: 52px;
+    margin-top: 9px;
+}
+.Category-form-box button{
+	background-color: red;
+	width: 40%;
+	height: 50px;
+	border: none;
+	margin: 30px;
+	margin-left: 80px;
+
+}
+/*.error{
+	color: red;
+	padding-left: 50px;
+}*/
+
+
+
+
+/*add vehicle*/
+.fullform{
+	margin-left: 380px;
+	padding-top: 100px;
+}
+.heading-title {
+	font-size: 30px;
+	text-decoration: underline;
+	margin-left: 100px;
+
+}
+.add-input-box{
+	margin-left: 3px;
+	padding-top: 10px;
+}
+.add-input-box input{
+	font-family: PT Serif;
+	margin-top: 10px;
+	width: 20%;
+	padding: 12px;
+/*	margin: 5px;*/
+}
+/*.add-input-box option{
+	font-family: PT Serif;
+	margin-top: 10px;
+	width: 90%;
+	padding: 12px;
+}*/
+.add-input-box label{
+	font-family: PT Serif;
+	color: black;
+	width: 165px;
+    display: inline-block;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 20px;
+	padding: 5px;
+}
+.add-input-box input[type="radio"]{
+	width: 10%;
+	font-size: 20px;
+	font-family: PT Serif;
+}
+.add-input-box textarea{
+	font-family: PT Serif;
+	margin-top: 8px;
+	color: black;
+	width: 20%;
+  display: inline-block;
+	height: 75px;
+	padding: 12px;
+}
+::placeholder{
+	font-size: 15px;
+	padding-left: 10px;
+	color: gray;
+}
+.btnAdd{
+	font-family: Kanit;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 24px;
+	width: 168px;
+	height: 52px;
+	background: red;
+	border: red;
+	color: white;
+	font-size: 25px;
+}
+
+
+/*list vehicle.....list category*/
+.list{
+	margin-left: 400px;
+	padding-top: 100px;
+}
+.h1list{
+	font-size: 40px;
+	text-decoration: underline;
+	margin-bottom: 18px;
+	text-align: center;
+}
+.tablestyle, .tablestyle1{
+    border:1px solid black;
+    width: 90%;
+    border-collapse:collapse;
+}
+.tablestyle1 tr,th,td{
+    border:1px solid black;
+    height: 40px;
+
+}
+.tablestyle tr,th,td{
+    border:1px solid black;
+    height: 40px;
+}
+.tablestyle th{
+	font-size: 19px;
+	font-family: PT Serif;
+    background:lightgray;
+}
+.tablestyle td , .tablestyle1 td{
+    font-size: 15px;
+    font-family: Roboto;
+    text-align: center;
+}
+.actioncol a{
+	border: none;
+	padding: 5px;            
+	text-decoration:none;
+    color:white;
+}
+.actioncol a.view{
+    background:green;
+    width: 20%;
+}
+.actioncol a.edit{
+    background:blue;
+    width: 20%;
+    border: 2px blue;
+    padding: 7px;
+}
+.actioncol a.del{
+    background:red;
+    width: 20%;
+    border: 2px red;
+    padding: 7px;
+}
+.un-success {
+   background-color:darkorange; /* Pending status color */
+   color: whitesmoke;
+   padding: 7px; 
+   width: 50px;
+   border-box:10px;
+}
+
+.success {
+	background-color: limegreen; /* Approved status color */
+    color: whitesmoke;
+    padding: 7px; 
+}
+
+.cancle {
+    color: red; /* Cancel status color */
+}
+
+.return {
+    color: #03045e; /* Return status color */
+}
+
+
+
+/*view_vehicle*/
+.vehicle-view{
+	margin-left: 300px;
+	padding-top: 100px;
+}
+.vehicle-view-h2{
+	font-size: 40px;
+	text-decoration: underline;
+	margin-bottom: 18px;
+	text-align: left;
+	margin-left: 160px;	
+}
+.vehicle-view-table{
+	margin-left: 120px;
+	border:1px solid black;
+    height: 40px;
+    width: 80%;
+    border-collapse:collapse;
+
+}
+.vehicle-view-table th{
+	font-size: 15px;
+	width: 20%;
+	font-family: PT Serif;
+    background:#E4E4E4;
+    text-align: left;
+    padding-left: 40px;
+}
+.vehicle-view-table td{
+	font-family: Roboto;
+	font-size: 15px;
+	width: 40%;
+	text-align: left;
+	padding-left: 30px;
+}
+
+
+/*Update Vehicle*/
+.update-fullform{
+	margin-left: 400px;
+	padding-top: 100px;
+}
+.update-heading-title {
+	font-size: 30px;
+	text-decoration: underline;
+	margin-left: 100px;
+
+}
+.update-input-box{
+	margin-left: 3px;
+	padding-top: 10px;
+}
+.update-input-box input{
+	font-family: PT Serif;
+	margin-top: 10px;
+	width: 20%;
+	padding: 12px;
+/*	margin: 5px;*/
+}
+.update-input-box label{
+	font-family: PT Serif;
+	color: black;
+	width: 151px;
+  display: inline-block;
+	height: 20px;
+	font-size: 20px;
+	margin-left: 20px;
+	padding: 5px;
+}
+.update-input-box textarea{
+	font-family: PT Serif;
+	margin-top: 8px;
+	color: black;
+	width: 20%;
+  display: inline-block;
+	height: 75px;
+	padding: 12px;
+}
+::placeholder{
+	font-size: 15px;
+	padding-left: 10px;
+}
+.btnUpdate{
+	font-family: Kanit;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 24px;
+	width: 198px;
+	height: 52px;
+	background: red;
+	border: red;
+	color: white;
+	font-size: 25px;
+}
+
+
+
+
+/*view booking*/
+.booking-list{
+	padding-top: 10px;
+}
+.booking-h1list{
+	font-size: 40px;
+	text-decoration: underline;
+	margin-bottom: 18px;
+	margin-left: 550px;	
+}
+.booking-tablestyle{
+	border:1px solid black;
+    height: 40px;
+    width: 66%;
+    margin-left: 400px;	
+    border-collapse:collapse;
+
+}
+.booking-tablestyle th{
+	font-size: 20px;
+	width: 5%;
+	text-align: left;
+	padding-left: 20px;	
+	font-family: PT Serif;
+    background:#E4E4E4;
+}
+.booking-tablestyle td{
+	font-family: Roboto;
+	font-size: 19px;
+	text-align: left;
+	padding-left: 20px;
+	width: 30%;
+}
+.badge-badge-success{
+	background: limegreen;
+	color: whitesmoke;
+}
+
+
+
+
+/*update booking*/
+.right-product-form_box{
+/*  background: purple;*/
+    width: 50%;
+    height: 1000px;
+    color: white;
+    float: left;
+    margin-left: 400px;
+    font-size: 20px;
+}
+.product-form-box{
+    width: 810px;
+    height: 23vh;
+    background-color: #F0F3F1;
+    border-radius: 2px black;
+    margin: auto;
+    margin-top: 10px;
+    float: left;
+/*  margin-right: 115px;*/
+}
+.input-box{
+    color: black;
+    font-family: PT Serif;
+    margin-left: 35px;
+    padding-top: 23px;
+}
+.input-box input{
+    font-family: PT Serif;
+    margin-top: 10px;
+    width: 90%;
+    padding: 12px;
+/*  margin: 5px;*/
+}
+.input-box input[type="radio"]{
+	width: 100px;
+	font-family: PT Serif;
+}
+.input-box label{
+    font-family: PT Serif;
+    color: black;
+    display: inline-block;
+    height: 20px;
+    padding: 5px;
+}
+.input-box textarea{
+    font-family: PT Serif;
+    margin-top: 8px;
+    color: black;
+    width: 513px;
+    display: inline-block;
+    height: 75px;
+    padding: 12px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.btnSubmit{
+    font-family: Kanit;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 34px;
+    float: right;
+    width: 168px;
+    height: 52px;
+    background: red;
+    border: red;
+    color: white;
+    font-size: 30px;
+}
+.destination{
+    width: 100%;
+
+}
+.des1{
+    margin-left: 33px;
+    padding-top: 23px;
+}
+.destination{
+    width: 100%;
+}
+.de{
+    width: 48%;
+    
+}
+.des{
+    width: 47%;
+}
+.destination{
+    display: inline-flex;
+}
+.driver{
+    padding-left: 35px;
+    color: black;
+    font-family: PT Serif;
+}
+#withdrive{
+    margin-left: 190px;
+}
+
+
+
+//register user
+.viewuser{
+    border:1px;
+    border-radius:5px;
+    background:lightgray;
+    padding:6px;
+    width:70%;
+    text-align:center;
+}
+.viewuser1{
+    font-size:30px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 676px;
+    text-decoration: underline;
+}
+.tablestyle-user{
+	margin-left:350px;
+    border:1px;
+    width:70%;
+    border-collapse:collapse;
+}
+.tablestyle-user tr,th,td{
+    border:1px solid gray;
+    text-align:center;
+    font-family: Roboto;
+}
+.tablestyle-user th{
+    background:lightgray;
+    font-size:18px;
+}
+.actioncol a{
+    border:1px solid gray;
+    padding:5px;
+    text-decoration:none;
+    color:white;
+}
